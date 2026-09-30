@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>RUTUBE</title>
+
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>RU TUBE NEWS — Новости русского YouTube</title>
+
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header class="header">
+
+    <div class="header-inner">
+
+        <a href="index.html" class="logo">
+            <span class="logo-icon">▶</span>
+            <span>
+                <strong>RU TUBE</strong>
+                <small>NEWS</small>
+            </span>
+        </a>
+
+        <nav class="menu">
+            <a href="index.html" class="active">Главная</a>
+            <a href="news.html">Новости</a>
+            <a href="popular.html">Популярное</a>
+            <a href="about.html">О сайте</a>
+        </nav>
+
+        <div class="search">
+            <input type="text" id="searchInput" placeholder="Поиск...">
+            <button onclick="searchNews()">⌕</button>
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <span class="hero-label">● НОВОСТИ РУССКОГО YOUTUBE</span>
+
+        <h1>
+            Всё самое интересное
+            <span>из мира блогеров</span>
+        </h1>
+
+        <p>
+            Новости авторов, новые проекты, тренды,
+            популярные видео и события российского YouTube.
+        </p>
+
+        <a href="news.html" class="hero-button">
+            Смотреть новости →
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= MAIN ================= -->
+
+<main class="container">
+
+    <div class="content">
+
+        <!-- ===== NEWS ===== -->
+
+        <section>
+
+            <div class="section-title">
+
+                <div>
+                    <span class="section-label">СЕГОДНЯ</span>
+                    <h2>Главные новости</h2>
+                </div>
+
+                <a href="news.html" class="all-news">
+                    Все новости →
+                </a>
+
+            </div>
+
+
+            <div class="news-grid">
+
+
+                <!-- MAIN NEWS -->
+
+                <article class="news-card main-news">
+
+                    <div class="news-image">
+
+                        <img src="./img/main.jpg" alt="Новость">
+                        
+
+                        <span class="category">YOUTUBE</span>
+
+                    </div>
+
+                    <div class="news-info">
+
+                        <span class="date">29 сентября 2026</span>
+
+                        <h3>
+                            Новый формат больших YouTube-шоу:
+                            что меняется на платформе
+                        </h3>
+
+                        <p>
+                            Вымышленный обзор новых форматов,
+                            которые могут изменить привычный
+                            подход к созданию развлекательного контента.
+                        </p>
+
+                        <a href="news.html" class="read-button">
+                            Читать →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- NEWS 2 -->
+
+                <article class="news-card">
+
+                    <div class="news-image">
+
+                        <img src="./img/news1.jpg" alt="Новость">
+
+                        <span class="category blue">
+                            БЛОГЕРЫ
+                        </span>
+
+                    </div>
+
+                    <div class="news-info">
+
+                        <span class="date">28 сентября 2026</span>
+
+                        <h3>
+                            Как авторы экспериментируют
+                            с короткими форматами
+                        </h3>
+
+                        <p>
+                            Новые идеи для Shorts и вертикальных видео.
+                        </p>
+
+                        <a href="news.html" class="read-button">
+                            Читать →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- NEWS 3 -->
+
+                <article class="news-card">
+
+                    <div class="news-image">
+
+                        <img src="./img/news2.jpg" alt="Новость">
+
+                        <span class="category pink">
+                            ТРЕНДЫ
+                        </span>
+
+                    </div>
+
+                    <div class="news-info">
+
+                        <span class="date">27 сентября 2026</span>
+
+                        <h3>
+                            Какие темы становятся популярнее
+                            среди зрителей
+                        </h3>
+
+                        <p>
+                            Разбираем основные направления контента.
+                        </p>
+
+                        <a href="news.html" class="read-button">
+                            Читать →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- NEWS 4 -->
+
+                <article class="news-card">
+
+                    <div class="news-image">
+
+                        <img src="./img/news31.jpg" alt="Новость">
+
+                        <span class="category green">
+                            ТЕХНОЛОГИИ
+                        </span>
+
+                    </div>
+
+                    <div class="news-info">
+
+                        <span class="date">26 сентября 2026</span>
+
+                        <h3>
+                            ИИ становится частью
+                            производства видео
+                        </h3>
+
+                        <p>
+                            Авторы используют новые инструменты
+                            для монтажа и создания контента.
+                        </p>
+
+                        <a href="news.html" class="read-button">
+                            Читать →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- NEWS 5 -->
+
+                <article class="news-card">
+
+                    <div class="news-image">
+
+                        <img src="./img/news41.jpg" alt="Новость">
+
+                        <span class="category orange">
+                            ШОУ
+                        </span>
+
+                    </div>
+
+                    <div class="news-info">
+
+                        <span class="date">25 сентября 2026</span>
+
+                        <h3>
+                            Почему зрителям нравятся
+                            большие совместные проекты
+                        </h3>
+
+                        <p>
+                            Коллаборации продолжают привлекать
+                            внимание аудитории.
+                        </p>
+
+                        <a href="news.html" class="read-button">
+                            Читать →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- NEWS 6 -->
+
+                <article class="news-card">
+
+                    <div class="news-image">
+
+                        <img src="./img/news5.jpg" alt="Новость">
+
+                        <span class="category purple">
+                            ИНТЕРВЬЮ
+                        </span>
+
+                    </div>
+
+                    <div class="news-info">
+
+                        <span class="date">24 сентября 2026</span>
+
+                        <h3>
+                            Большие интервью снова
+                            возвращаются в тренды
+                        </h3>
+
+                        <p>
+                            Формат длинных разговорных видео
+                            получает новое развитие.
+                        </p>
+
+                        <a href="news.html" class="read-button">
+                            Читать →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- NEWS 7 -->
+
+                <article class="news-card">
+
+                    <div class="news-image">
+
+                        <img src="./img/news6.jpg" alt="Новость">
+
+                        <span class="category blue">
+                            ИГРЫ
+                        </span>
+
+                    </div>
+
+                    <div class="news-info">
+
+                        <span class="date">23 сентября 2026</span>
+
+                        <h3>
+                            Игровые каналы ищут новые
+                            способы удерживать зрителей
+                        </h3>
+
+                        <p>
+                            Развлекательный контент становится
+                            ещё разнообразнее.
+                        </p>
+
+                        <a href="news.html" class="read-button">
+                            Читать →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- NEWS 8 -->
+
+                <article class="news-card">
+
+                    <div class="news-image">
+
+                        <img src="./img/news7.jpg" alt="Новость">
+
+                        <span class="category red">
+                            КИНО
+                        </span>
+
+                    </div>
+
+                    <div class="news-info">
+
+                        <span class="date">22 сентября 2026</span>
+
+                        <h3>
+                            Кинообзоры получают необычные
+                            форматы подачи
+                        </h3>
+
+                        <p>
+                            Авторы экспериментируют с визуальным стилем.
+                        </p>
+
+                        <a href="news.html" class="read-button">
+                            Читать →
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SIDEBAR ================= -->
+
+        <aside class="sidebar">
+
+            <div class="sidebar-title">
+
+                <span class="section-label">
+                    В ТРЕНДЕ
+                </span>
+
+                <h2>Популярное</h2>
+
+            </div>
+
+
+            <div class="popular-list">
+
+                <a href="popular.html" class="popular-item">
+
+                    <span class="number">01</span>
+
+                    <div>
+                        <h3>
+                            Главные YouTube-тренды недели
+                        </h3>
+                        <small>Сегодня</small>
+                    </div>
+
+                </a>
+
+
+                <a href="popular.html" class="popular-item">
+
+                    <span class="number">02</span>
+
+                    <div>
+                        <h3>
+                            Почему короткие видео
+                            продолжают расти
+                        </h3>
+                        <small>Сегодня</small>
+                    </div>
+
+                </a>
+
+
+                <a href="popular.html" class="popular-item">
+
+                    <span class="number">03</span>
+
+                    <div>
+                        <h3>
+                            Самые обсуждаемые
+                            коллаборации
+                        </h3>
+                        <small>Вчера</small>
+                    </div>
+
+                </a>
+
+
+                <a href="popular.html" class="popular-item">
+
+                    <span class="number">04</span>
+
+                    <div>
+                        <h3>
+                            ИИ в создании
+                            современного контента
+                        </h3>
+                        <small>Вчера</small>
+                    </div>
+
+                </a>
+
+
+                <a href="popular.html" class="popular-item">
+
+                    <span class="number">05</span>
+
+                    <div>
+                        <h3>
+                            Новые форматы
+                            интервью
+                        </h3>
+                        <small>22 сентября</small>
+                    </div>
+
+                </a>
+
+            </div>
+
+
+            <a href="popular.html" class="sidebar-button">
+                Все популярные →
+            </a>
+
+        </aside>
+
+    </div>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="footer-inner">
+
+        <div class="footer-logo">
+            <strong>RU TUBE</strong>
+            <span>NEWS</span>
+        </div>
+
+        <p>
+            Учебный проект о новостях русского YouTube.
+        </p>
+
+        <div class="footer-links">
+            <a href="index.html">Главная</a>
+            <a href="news.html">Новости</a>
+            <a href="popular.html">Популярное</a>
+            <a href="about.html">О сайте</a>
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        © 2026 RU TUBE NEWS
+    </div>
+
+</footer>
+
+
+<script>
+
+function searchNews() {
+
+    let input = document.getElementById("searchInput").value;
+
+    if (input.trim() === "") {
+
+        alert("Введите название новости");
+
+    } else {
+
+        window.location.href = "news.html";
+
+    }
+
+}
+
+</script>
+
+</body>
+</html>

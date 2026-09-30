@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Новости — RU TUBE NEWS</title>
+
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+
+
+<header class="header">
+
+    <div class="header-inner">
+
+        <a href="index.html" class="logo">
+
+            <span class="logo-icon">▶</span>
+
+            <span>
+                <strong>RU TUBE</strong>
+                <small>NEWS</small>
+            </span>
+
+        </a>
+
+
+        <nav class="menu">
+
+            <a href="index.html">Главная</a>
+
+            <a href="news.html" class="active">
+                Новости
+            </a>
+
+            <a href="popular.html">
+                Популярное
+            </a>
+
+            <a href="about.html">
+                О сайте
+            </a>
+
+        </nav>
+
+
+        <div class="search">
+
+            <input
+                type="text"
+                placeholder="Поиск..."
+                id="searchInput">
+
+            <button onclick="searchNews()">
+                ⌕
+            </button>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<main class="container">
+
+    <div class="section-title">
+
+        <div>
+
+            <span class="section-label">
+                RU TUBE NEWS
+            </span>
+
+            <h2>
+                Все новости
+            </h2>
+
+        </div>
+
+    </div>
+
+
+    <div class="news-grid">
+
+
+        <!-- 1 -->
+
+        <article class="news-card main-news">
+
+            <div class="news-image">
+
+                <img src="images/main.jpg">
+
+                <span class="category">
+                    YOUTUBE
+                </span>
+
+            </div>
+
+            <div class="news-info">
+
+                <span class="date">
+                    29 сентября 2026
+                </span>
+
+                <h3>
+                    Новый формат больших YouTube-шоу
+                </h3>
+
+                <p>
+                    Вымышленная новость о развитии
+                    современных форматов на YouTube.
+                </p>
+
+                <a href="index.html" class="read-button">
+                    На главную →
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- 2 -->
+
+        <article class="news-card">
+
+            <div class="news-image">
+
+                <img src="./img/news1.jpg" alt="Новость">
+
+                <span class="category blue">
+                    БЛОГЕРЫ
+                </span>
+
+            </div>
+
+            <div class="news-info">
+
+                <span class="date">
+                    28 сентября 2026
+                </span>
+
+                <h3>
+                    Авторы экспериментируют
+                    с короткими форматами
+                </h3>
+
+                <p>
+                    Shorts и вертикальные видео
+                    становятся частью новых проектов.
+                </p>
+
+                <a href="popular.html" class="read-button">
+                    Читать →
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- 3 -->
+
+        <article class="news-card">
+
+            <div class="news-image">
+
+                <img src="./img/news2.jpg" alt="Новость">
+
+                <span class="category pink">
+                    ТРЕНДЫ
+                </span>
+
+            </div>
+
+            <div class="news-info">
+
+                <span class="date">
+                    27 сентября 2026
+                </span>
+
+                <h3>
+                    Новые темы для YouTube-контента
+                </h3>
+
+                <p>
+                    Какие направления можно использовать
+                    современным авторам.
+                </p>
+
+                <a href="popular.html" class="read-button">
+                    Читать →
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- 4 -->
+
+        <article class="news-card">
+
+            <div class="news-image">
+
+                <img src="./img/news31.jpg" alt="Новость">
+
+                <span class="category green">
+                    ТЕХНОЛОГИИ
+                </span>
+
+            </div>
+
+            <div class="news-info">
+
+                <span class="date">
+                    26 сентября 2026
+                </span>
+
+                <h3>
+                    ИИ помогает создавать видео
+                </h3>
+
+                <p>
+                    Новые инструменты используются
+                    для монтажа и идей.
+                </p>
+
+                <a href="popular.html" class="read-button">
+                    Читать →
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- 5 -->
+
+        <article class="news-card">
+
+            <div class="news-image">
+
+                <img src="./img/news41.jpg" alt="Новость">
+
+                <span class="category orange">
+                    ШОУ
+                </span>
+
+            </div>
+
+            <div class="news-info">
+
+                <span class="date">
+                    25 сентября 2026
+                </span>
+
+                <h3>
+                    Коллаборации блогеров
+                </h3>
+
+                <p>
+                    Совместные проекты становятся
+                    важной частью YouTube.
+                </p>
+
+                <a href="popular.html" class="read-button">
+                    Читать →
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- 6 -->
+
+        <article class="news-card">
+
+            <div class="news-image">
+
+                <img src="./img/news5.jpg" alt="Новость">
+
+                <span class="category purple">
+                    ИНТЕРВЬЮ
+                </span>
+
+            </div>
+
+            <div class="news-info">
+
+                <span class="date">
+                    24 сентября 2026
+                </span>
+
+                <h3>
+                    Возвращение длинных интервью
+                </h3>
+
+                <p>
+                    Разговорные форматы получают
+                    новую популярность.
+                </p>
+
+                <a href="popular.html" class="read-button">
+                    Читать →
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- 7 -->
+
+        <article class="news-card">
+
+            <div class="news-image">
+
+                <img src="./img/news6.jpg" alt="Новость">
+
+                <span class="category blue">
+                    ИГРЫ
+                </span>
+
+            </div>
+
+            <div class="news-info">
+
+                <span class="date">
+                    23 сентября 2026
+                </span>
+
+                <h3>
+                    Игровые каналы меняют форматы
+                </h3>
+
+                <p>
+                    Создатели ищут новые способы
+                    удерживать внимание аудитории.
+                </p>
+
+                <a href="popular.html" class="read-button">
+                    Читать →
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- 8 -->
+
+        <article class="news-card">
+
+            <div class="news-image">
+
+                <img src="./img/news7.jpg" alt="Новость">
+
+                <span class="category red">
+                    КИНО
+                </span>
+
+            </div>
+
+            <div class="news-info">
+
+                <span class="date">
+                    22 сентября 2026
+                </span>
+
+                <h3>
+                    Новые форматы кинообзоров
+                </h3>
+
+                <p>
+                    Авторы меняют визуальную подачу
+                    своих роликов.
+                </p>
+
+                <a href="popular.html" class="read-button">
+                    Читать →
+                </a>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</main>
+
+
+<footer class="footer">
+
+    <div class="footer-inner">
+
+        <div class="footer-logo">
+
+            <strong>RU TUBE</strong>
+
+            <span>NEWS</span>
+
+        </div>
+
+        <p>
+            Учебный проект о русском YouTube.
+        </p>
+
+        <div class="footer-links">
+
+            <a href="index.html">Главная</a>
+
+            <a href="news.html">Новости</a>
+
+            <a href="popular.html">Популярное</a>
+
+            <a href="about.html">О сайте</a>
+
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        © 2026 RU TUBE NEWS
+    </div>
+
+</footer>
+
+
+<script>
+
+function searchNews() {
+
+    let input =
+        document.getElementById("searchInput").value;
+
+    if (input.trim() === "") {
+
+        alert("Введите запрос");
+
+    } else {
+
+        alert(
+            "Поиск по запросу: " + input
+        );
+
+    }
+
+}
+
+</script>
+
+</body>
+</html>
